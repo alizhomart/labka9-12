@@ -1,0 +1,102 @@
+body{
+    margin: 0 auto;
+    min-width: 1400px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0px 30px;
+    overflow: hidden;
+    background-color: #333;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    padding: 14px 122px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.login-container{
+    display: flex;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-bottom: 80px;
+    width: 500px;
+}
+
+.login-container h2{
+    text-align: center;
+}
+
+.login-container form{
+    border: 3px solid #f1f1f1;
+}
+
+.login-container input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-container button:hover {
+    opacity: 0.8;
+}
+
+.login-container .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.login-container .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.login-container img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}

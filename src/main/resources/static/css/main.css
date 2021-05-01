@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    min-width: 1400px;
+    color: white;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0px 30px;
+    overflow: hidden;
+    background-color: #333;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    padding: 14px 122px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.carousel .carousel-inner{
+    width: auto;
+    height: 600px;
+    position: relative;
+    margin: auto;
+}
+
+.card-container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 80px 100px;
+}
+
+.card-container .card .card-body .btn{
+    position: relative;
+    text-align: center;
+    margin-left: 58px;
+}
